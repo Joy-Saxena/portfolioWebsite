@@ -51,7 +51,7 @@ h1 {
 
 
 .right, .left {
-    width: 100%;
+    width: 400px;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -59,9 +59,11 @@ h1 {
 }
 .right {
     margin-bottom: 5%;
+    margin-left: 50%;
 }
 
 .left {
+   margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -125,8 +127,8 @@ li {
 }
 
 .touch {
-    width: 90%;
-    max-width: 800px;
+    width: 100%;
+    margin-left: 25%;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -136,9 +138,7 @@ li {
 }
 
 .foot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
     margin: 0%;
     padding: 0%;
     font-size: large;
@@ -148,6 +148,7 @@ li {
     background-color: #66bfbf;
     height: 100px;
     width: 100%;
+    
 }
 
 .me {
@@ -164,6 +165,8 @@ li {
     }
 
     .about, .touch {
+        margin: 0;
+        text-align: center;
         width: 90%;
         font-size: 1.5rem;
     }
