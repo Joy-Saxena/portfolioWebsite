@@ -10,16 +10,11 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     margin: 0;
     padding: 0;
-
-
     text-align: center;
+
 }
 
 .top {
@@ -36,7 +31,7 @@ h1 {
 }
 
 .h {
-    display: block;
+
     font-size: 2rem;
     color: #66bfbf;
 }
@@ -50,20 +45,20 @@ h1 {
 }
 
 
-.right, .left {
+.right,
+.left {
     width: 400px;
-    display: flex;
-    justify-content: center;
     margin: 0;
     padding: 0;
 }
+
 .right {
     margin-bottom: 5%;
     margin-left: 50%;
 }
 
 .left {
-   margin-left: 10%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -114,11 +109,8 @@ li {
 }
 
 .about {
-    width: 90%;
-    max-width: 800px;
-
-    width: 50%;
-    margin: auto;
+    margin-left: 20%;
+    width: 100%;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -127,8 +119,8 @@ li {
 }
 
 .touch {
+    margin-left: 20%;
     width: 100%;
-    margin-left: 25%;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -148,14 +140,19 @@ li {
     background-color: #66bfbf;
     height: 100px;
     width: 100%;
-    
+
+}
+
+.botttom {
+    text-align: center;
 }
 
 .me {
     margin-bottom: 5%;
     width: 400px;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     h1 {
         font-size: 2.5rem;
     }
@@ -164,8 +161,10 @@ li {
         font-size: 1.2rem;
     }
 
-    .about, .touch {
-        margin: 0;
+    .about,
+    .touch {
+
+        margin-left: 6%;
         text-align: center;
         width: 90%;
         font-size: 1.5rem;
@@ -175,9 +174,10 @@ li {
         width: 100%;
         max-width: 300px;
     }
+
 }
 
-@media (min-width: 601px) and (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 992px) {
     h1 {
         font-size: 3rem;
     }
@@ -186,7 +186,9 @@ li {
         font-size: 1.4rem;
     }
 
-    .about, .touch {
+    .about,
+    .touch {
+        margin-left: 15%;
         width: 70%;
         font-size: 1.8rem;
     }
@@ -195,9 +197,10 @@ li {
         width: 100%;
         max-width: 350px;
     }
+
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 993px) and (max-width: 1200px) {
     h1 {
         font-size: 3.5rem;
     }
@@ -206,7 +209,8 @@ li {
         font-size: 1.6rem;
     }
 
-    .about, .touch {
+    .about,
+    .touch {
         width: 60%;
         font-size: 1.8rem;
     }
@@ -217,7 +221,7 @@ li {
     }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1201px) {
     h1 {
         font-size: 4rem;
     }
@@ -226,7 +230,9 @@ li {
         font-size: 1.5rem;
     }
 
-    .about, .touch {
+    .about,
+    .touch {
+        margin-left: 25%;
         width: 50%;
         font-size: 2rem;
     }
@@ -234,4 +240,5 @@ li {
     .me {
         width: 400px;
     }
+
 }
